@@ -31,6 +31,13 @@
 ### Other Applications
 - [ ] SIGGRAPH 2018: [Non-Stationary Texture Synthesis by Adversarial Expansion](https://arxiv.org/abs/1805.04487)
 
+### Quantitative Analysis
+- [ ] CVPR 2019: [Perceptual Path Metric: StyleGAN](https://arxiv.org/abs/1812.04948)
+- [ ] NeurIPS 2019: [Improved Precision and Recall Metric for Assessing Generative Models](https://arxiv.org/abs/1904.06991)
+- [ ] NeurIPS 2018: [Assessing Generative Models via Precision and Recall](https://arxiv.org/abs/1806.00035)
+- [ ] NeurIPS 2017: [Frechet Inception Distance](https://arxiv.org/abs/1706.08500)
+
+
 
 ### ====
 - https://genforce.github.io/
