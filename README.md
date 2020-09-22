@@ -44,6 +44,7 @@
 - [ ] SURVEY, Aug'20: [Generative Adversarial Networks for Image and Video Synthesis: Algorithms and Applications](https://arxiv.org/abs/2008.02793)
 
 ### Other Applications
+- [ ] SIGGRAPH 2020: [Unpaired Motion Style Transfer from Video to Animation](https://deepmotionediting.github.io/style_transfer)
 - [ ] SIGGRAPH 2018: [Non-Stationary Texture Synthesis by Adversarial Expansion](https://arxiv.org/abs/1805.04487)
 
 ### Quantitative Analysis
