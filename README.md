@@ -20,7 +20,8 @@
 - [ ] CVPR 2020: [Image Processing Using Multi-Code GAN Prior](https://arxiv.org/abs/1912.07116)
 - [X] CVPR 2020: [Image2StyleGAN++: How to Edit the Embedded Images?](https://arxiv.org/abs/1911.11544)
 - [ ] SIGGRAPH 2019: [Semantic Photo Manipulation with a Generative Image Prior](https://ganpaint.io/)
-- [ ] ICLR 2019: [GAN Dissection: Visualizing and Understanding Generative Adversarial Networks](https://gandissect.csail.mit.edu/)
+- [ ] ICLR 2019: [GAN Dissection: Visualizing and Understanding Generative Adversarial Networks](https://gandissect.csail.mit.edu/), [Video](https://www.youtube.com/embed/yVCgUYe4JTM?rel=0&autoplay=1)
+    - **Comments**: It's a framework to interpret and label the internal units inside the Generator. Labels are associated by checking correlation of feature activations of individual units with the segmentation mask of the generated image
 - [X] ICCV 2019: [Image2StyleGAN - How to Embed Images Into the StyleGAN Latent Space?](https://arxiv.org/abs/1904.03189)
 
 ### Disentanglement of Variation Factors in Generative Models
