@@ -18,7 +18,6 @@
 - [ ] ECCV 2020: [Rewriting a Deep Generative Model](https://rewriting.csail.mit.edu/)
 - [ ] ECCV 2020: [Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation](https://arxiv.org/abs/2003.13659)
 - [ ] ECCV 2020: [DeepLandscape: Adversarial Modeling of Landscape Videos](https://saic-mdal.github.io/deep-landscape/)
-- [ ] CVPR 2020: [Interpreting the Latent Space of GANs for Semantic Face Editing](https://arxiv.org/abs/1907.10786)
 - [ ] CVPR 2020: [Image Processing Using Multi-Code GAN Prior](https://arxiv.org/abs/1912.07116)
 - [X] CVPR 2020: [Image2StyleGAN++: How to Edit the Embedded Images?](https://arxiv.org/abs/1911.11544)
 - [ ] SIGGRAPH 2019: [Semantic Photo Manipulation with a Generative Image Prior](https://ganpaint.io/)
@@ -26,8 +25,10 @@
 
 
 ### Interpretability
+- [ ] CVPR 2020: [InterFaceGAN - Interpreting the Latent Space of GANs for Semantic Face Editing](https://genforce.github.io/interfacegan/)
+    - **Comments**: Similar to HiGAN below, they use off-the-shelf image classifiers (like male/female, old/young, smile/no-smile, artifacts/no-artifacts) to find semantic boundaries in the latent space
 - [ ] arxiv 2020: [HiGAN - Semantic Hierarchy Emerges in Deep Generative Representations for Scene Synthesis](https://arxiv.org/abs/1911.09267)
-    - **Comments** Investigates the causality between latent space vectors and generated image attributes/semantics. For normal GANs, they use off-the-shelf image classifiers (like cloud/no-cloud, lighting/no-lighting) to find semantic boundaries in the latent space. For StyleGAN-like architectures, where stochasticity/randomness is introduced at multiple layers, they find that by perturbing input latent vectors at different layer depths, different semantics are controlled: Layout -> Objects -> Attributes -> Color Schemes
+    - **Comments**: Investigates the causality between latent space vectors and generated image attributes/semantics. For normal GANs, they use off-the-shelf image classifiers (like cloud/no-cloud, lighting/no-lighting) to find semantic boundaries in the latent space. For StyleGAN-like architectures, where stochasticity/randomness is introduced at multiple layers, they find that by perturbing input latent vectors at different layer depths, different semantics are controlled: Layout -> Objects -> Attributes -> Color Schemes
 - [ ] ICLR 2019: [GAN Dissection: Visualizing and Understanding Generative Adversarial Networks](https://gandissect.csail.mit.edu/), [Video](https://www.youtube.com/embed/yVCgUYe4JTM?rel=0&autoplay=1)
     - **Comments**: It's a framework to interpret and label the internal units inside the Generator. Labels are associated by checking correlation of feature activations of individual units with the segmentation mask of the generated image
 
