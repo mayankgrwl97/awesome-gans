@@ -2,6 +2,8 @@
 
 ### Tutorials
 - [ ] [CVPR'20 iMLCV tutorial: Exploring and Exploiting Interpretable Semantics in GANs by Bolei Zhou](https://youtu.be/rfx3whKgFVo) `0:46:46`
+- [ ] [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/)
+- [X] [Apple Machine Learning Blog](https://machinelearning.apple.com/research/gan)
 
 
 ### GAN Architectures (StyleGAN, ProgressiveGAN types)
@@ -25,10 +27,12 @@
 
 
 ### Interpretability
+- [ ] ICLR 2020: [On the "steerability" of generative adversarial networks](https://ali-design.github.io/gan_steerability/)
 - [ ] CVPR 2020: [InterFaceGAN - Interpreting the Latent Space of GANs for Semantic Face Editing](https://genforce.github.io/interfacegan/)
-    - **Comments**: Similar to HiGAN below, they use off-the-shelf image classifiers (like male/female, old/young, smile/no-smile, artifacts/no-artifacts) to find semantic boundaries in the latent space
+    - **Comments**: Similar to HiGAN below, they use off-the-shelf image classifiers (like male/female, old/young, smile/no-smile, artifacts/no-artifacts) to find semantic boundaries in the latent space. Check for metrics to measure the disentanglement of faces.
 - [ ] arxiv 2020: [HiGAN - Semantic Hierarchy Emerges in Deep Generative Representations for Scene Synthesis](https://arxiv.org/abs/1911.09267)
     - **Comments**: Investigates the causality between latent space vectors and generated image attributes/semantics. For normal GANs, they use off-the-shelf image classifiers (like cloud/no-cloud, lighting/no-lighting) to find semantic boundaries in the latent space. For StyleGAN-like architectures, where stochasticity/randomness is introduced at multiple layers, they find that by perturbing input latent vectors at different layer depths, different semantics are controlled: Layout -> Objects -> Attributes -> Color Schemes
+- [ ] ICCV 2019: [GANalyze: Toward Visual Definitions of Cognitive Image Properties](http://ganalyze.csail.mit.edu/)
 - [ ] ICLR 2019: [GAN Dissection: Visualizing and Understanding Generative Adversarial Networks](https://gandissect.csail.mit.edu/), [Video](https://www.youtube.com/embed/yVCgUYe4JTM?rel=0&autoplay=1)
     - **Comments**: It's a framework to interpret and label the internal units inside the Generator. Labels are associated by checking correlation of feature activations of individual units with the segmentation mask of the generated image
 
@@ -58,6 +62,7 @@
 
 ### Other Applications
 - [ ] SIGGRAPH 2020: [Unpaired Motion Style Transfer from Video to Animation](https://deepmotionediting.github.io/style_transfer)
+- [ ] ICCV 2019: [InGAN: Capturing and Remapping the "DNA" of a Natural Image](https://arxiv.org/abs/1812.00231)
 - [ ] SIGGRAPH 2018: [Non-Stationary Texture Synthesis by Adversarial Expansion](https://arxiv.org/abs/1805.04487)
 
 
