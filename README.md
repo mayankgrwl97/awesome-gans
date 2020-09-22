@@ -1,5 +1,8 @@
 ## GAN Readings
 
+### Tutorials
+- [ ] [CVPR'20 iMLCV tutorial: Exploring and Exploiting Interpretable Semantics in GANs by Bolei Zhou](https://youtu.be/rfx3whKgFVo) `0:46:46`
+
 ### GAN Architectures (StyleGAN, ProgressiveGAN types)
 - [X] CVPR 2020: [StyleGAN2 - Analyzing and Improving the Image Quality of StyleGAN](https://arxiv.org/abs/1912.04958)
 - [X] CVPR 2019: [StyleGAN - A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)
