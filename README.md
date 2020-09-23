@@ -28,14 +28,23 @@
 
 
 ### Interpretability
+#### Require supervision in form of off-the-shelf supervised classifiers
 - [ ] ICLR 2020: [On the "steerability" of generative adversarial networks](https://ali-design.github.io/gan_steerability/)
+    - **Comments**: Explore correspondence of latent space trajectories in GANs to simple image transformations. Dataset biases limit the extent of transformations (e.g: can't convert red firetruck to blue firetruck by moving in the blueness direction in the latent space). Data augmentation and jointly training the walk trajectory and the generator weights imroves steerability, resulting in larger transformation effects.
 - [ ] CVPR 2020: [InterFaceGAN - Interpreting the Latent Space of GANs for Semantic Face Editing](https://genforce.github.io/interfacegan/)
     - **Comments**: Similar to HiGAN below, they use off-the-shelf image classifiers (like male/female, old/young, smile/no-smile, artifacts/no-artifacts) to find semantic boundaries in the latent space. Check for metrics to measure the disentanglement of faces.
 - [ ] arxiv 2020: [HiGAN - Semantic Hierarchy Emerges in Deep Generative Representations for Scene Synthesis](https://arxiv.org/abs/1911.09267)
     - **Comments**: Investigates the causality between latent space vectors and generated image attributes/semantics. For normal GANs, they use off-the-shelf image classifiers (like cloud/no-cloud, lighting/no-lighting) to find semantic boundaries in the latent space. For StyleGAN-like architectures, where stochasticity/randomness is introduced at multiple layers, they find that by perturbing input latent vectors at different layer depths, different semantics are controlled: Layout -> Objects -> Attributes -> Color Schemes
 - [ ] ICCV 2019: [GANalyze: Toward Visual Definitions of Cognitive Image Properties](http://ganalyze.csail.mit.edu/)
+    - **Comments**: Learn transformation in latent space (via a Transformer network) to improve memorability of generated images. Also check [MemNet](https://arxiv.org/abs/1708.02209)
 - [ ] ICLR 2019: [GAN Dissection: Visualizing and Understanding Generative Adversarial Networks](https://gandissect.csail.mit.edu/), [Video](https://www.youtube.com/embed/yVCgUYe4JTM?rel=0&autoplay=1)
     - **Comments**: It's a framework to interpret and label the internal units inside the Generator. Labels are associated by checking correlation of feature activations of individual units with the segmentation mask of the generated image
+
+#### Unsupervised Attribute Discovery in GANs
+- [ ] arxiv 2020: [GANSpace: Discovering Interpretable GAN Controls](https://arxiv.org/abs/2004.02546)
+    - **Comments** Discover Interpretable latent space directions by performing PCA analysis on the latent activations
+- [ ] ICML 2020: [Unsupervised Discovery of Interpretable Directions in the GAN Latent Space](https://arxiv.org/abs/2002.03754)
+    - **Comments**: They learn a set of directions in the latet space that induce "orthogonal" image transformations that are easy to distinguish from each other. E.g. -background blur+, -background removal+, -hair+, etc.
 
 ### Disentanglement of Variation Factors in Generative Models
 - [ ] arxiv 2020: [Closed-Form Factorization of Latent Semantics in GANs](https://arxiv.org/abs/2007.06600)
