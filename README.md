@@ -1,7 +1,7 @@
 ## GAN Readings
 
 ### Tutorials and Blogs
-- [ ] [CVPR'20 iMLCV tutorial: Exploring and Exploiting Interpretable Semantics in GANs by Bolei Zhou](https://youtu.be/rfx3whKgFVo) `0:46:46`
+- [X] [CVPR'20 iMLCV tutorial: Exploring and Exploiting Interpretable Semantics in GANs by Bolei Zhou](https://youtu.be/rfx3whKgFVo) `0:46:46`
 - [ ] [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/)
 - [X] [Apple Machine Learning Blog](https://machinelearning.apple.com/research/gan)
 
@@ -12,9 +12,8 @@
 - [X] ICLR 2018: [Progressive GAN - Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/abs/1710.10196)
 
 
-### Latent Code to Image (Image2StyleGAN types)
+### GAN Inversion: Inverting Real Faces to Latent Code (Image2StyleGAN types)
 - [ ] ECCV 2020: [Transforming and Projecting Images into Class-conditional Generative Networks](https://minyoungg.github.io/pix2latent/)
-- [ ] ECCV 2020: [In-Domain GAN Inversion for Real Image Editing](https://arxiv.org/abs/2004.00049)
 - [ ] arxiv 2020: [Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/abs/2007.10379)
 - [ ] SIGGRAPH ASIA 2020: [Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/abs/2008.02401)
 - [ ] ECCV 2020: [StyleGAN2 Distillation for Feed-forward Image Manipulation](https://arxiv.org/abs/2003.03581)
@@ -25,7 +24,13 @@
 - [X] CVPR 2020: [Image2StyleGAN++: How to Edit the Embedded Images?](https://arxiv.org/abs/1911.11544)
 - [ ] SIGGRAPH 2019: [Semantic Photo Manipulation with a Generative Image Prior](https://ganpaint.io/)
 - [X] ICCV 2019: [Image2StyleGAN - How to Embed Images Into the StyleGAN Latent Space?](https://arxiv.org/abs/1904.03189)
+    - **Comments**: Introduce extended latent codes to embed real images that are different from the dataset on which GAN has been trained. Each layer of Generator receives different latent codes from this extend latent space. *Problem*: Overfitting to given image; doesn't very well support the manipulation. Resulting code might be outside the original latent domain (due to unconstrained optimization)
 
+#### Adding encoder to GAN generator (Reconstructions are not good)
+- [ ] ECCV 2020: [In-Domain GAN Inversion for Real Image Editing](https://arxiv.org/abs/2004.00049)
+    - **Comments** Resolves out-of-domain image inversion (from Image2StyleGAN) by doing an Encoder-constrained Optimization. They compute loss on both reconstructed image and the predicted latent code. Hence, we can use these latent codes for image editing. Check application: Semantic Diffusion
+- [ ] CVPR 2020: [Adversarial Latent Autoencoders](https://arxiv.org/abs/2004.04467)
+- [ ] NeurIPS 2019: [BigBiGAN - Large Scale Adversarial Representation Learning](https://arxiv.org/abs/1907.02544)
 
 ### Interpretability
 #### Require supervision in form of off-the-shelf supervised classifiers
