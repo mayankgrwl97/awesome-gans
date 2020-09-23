@@ -64,7 +64,8 @@
 - [ ] ECCV 2020: [Learning to Factorize and Relight a City](https://arxiv.org/abs/2008.02796)
 - [ ] arxiv 2020: [Swapping Autoencoder for Deep Image Manipulation](https://arxiv.org/abs/2007.00653)
 - [ ] CVPR 2020: [StarGAN v2 - Diverse Image Synthesis for Multiple Domains](https://arxiv.org/abs/1912.01865)
-- [ ] ICLR 2020: [Mask Based Unsupervised Content Transfer](https://arxiv.org/abs/1906.06558)
+- [X] ICLR 2020: [Mask Based Unsupervised Content Transfer](https://arxiv.org/abs/1906.06558)
+    - **Comments**: They tackle the problem of translating domain specific content (such as glasses/no-glasses, moustache/no-moustache) between two domains. Their proposed method disentangles the common and separate parts of these domains, and, through the generation of a mask, focuses the attention of the underlying network to the desired augmentation alone, without wastefully reconstructing the entire target.
 - [ ] ICCV 2019: [SinGAN - Learning a Generative Model from a Single Natural Image](https://arxiv.org/abs/1905.01164)
 - [ ] CVPR 2018: [StarGAN - Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](https://arxiv.org/abs/1711.09020)
 - [X] CVPR 2018: [Pix2PixHD - High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs](https://arxiv.org/abs/1711.11585)
