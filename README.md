@@ -1,6 +1,6 @@
 ## GAN Readings
 
-### Tutorials
+### Tutorials and Blogs
 - [ ] [CVPR'20 iMLCV tutorial: Exploring and Exploiting Interpretable Semantics in GANs by Bolei Zhou](https://youtu.be/rfx3whKgFVo) `0:46:46`
 - [ ] [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/)
 - [X] [Apple Machine Learning Blog](https://machinelearning.apple.com/research/gan)
@@ -13,6 +13,7 @@
 
 
 ### Latent Code to Image (Image2StyleGAN types)
+- [ ] ECCV 2020: [Transforming and Projecting Images into Class-conditional Generative Networks](https://minyoungg.github.io/pix2latent/)
 - [ ] ECCV 2020: [In-Domain GAN Inversion for Real Image Editing](https://arxiv.org/abs/2004.00049)
 - [ ] arxiv 2020: [Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/abs/2007.10379)
 - [ ] SIGGRAPH ASIA 2020: [Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/abs/2008.02401)
