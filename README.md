@@ -1,7 +1,9 @@
 ## GAN Readings
 
 ### Tutorials and Blogs
-- [ ] [Making Anime Faces With StyleGAN[1/2] - Tips and tricks for effective StyleGAN use](https://www.gwern.net/Faces)
+- [X] [StyleGAN v2: notes on training and latent space exploration (Fashion Dataset)](https://towardsdatascience.com/stylegan-v2-notes-on-training-and-latent-space-exploration-e51cf96584b3)
+    - [ ] [Improving Initialization for GAN inversion](https://github.com/rolux/stylegan2encoder/issues/2)
+    - [ ] [Making Anime Faces With StyleGAN[1/2] - Tips and tricks for effective StyleGAN use](https://www.gwern.net/Faces)
 - [X] [CVPR'20 iMLCV tutorial: Exploring and Exploiting Interpretable Semantics in GANs by Bolei Zhou](https://youtu.be/rfx3whKgFVo) `0:46:46`
 - [ ] [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/)
 - [X] [Apple Machine Learning Blog](https://machinelearning.apple.com/research/gan)
