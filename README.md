@@ -1,5 +1,8 @@
 ## GAN Readings
 
+### Relevant Workshops
+- [ ] [AI for Content Creation Workshop](http://visual.cs.brown.edu/workshops/aicc2020/)
+
 ### Tutorials and Blogs
 - [X] [StyleGAN v2: notes on training and latent space exploration (Fashion Dataset)](https://towardsdatascience.com/stylegan-v2-notes-on-training-and-latent-space-exploration-e51cf96584b3)
     - [ ] [Improving Initialization for GAN inversion](https://github.com/rolux/stylegan2encoder/issues/2)
@@ -41,7 +44,7 @@
     - **Comments**: Explore correspondence of latent space trajectories in GANs to simple image transformations. Dataset biases limit the extent of transformations (e.g: can't convert red firetruck to blue firetruck by moving in the blueness direction in the latent space). Data augmentation and jointly training the walk trajectory and the generator weights imroves steerability, resulting in larger transformation effects.
 - [ ] CVPR 2020: [InterFaceGAN - Interpreting the Latent Space of GANs for Semantic Face Editing](https://genforce.github.io/interfacegan/)
     - **Comments**: Similar to HiGAN below, they use off-the-shelf image classifiers (like male/female, old/young, smile/no-smile, artifacts/no-artifacts) to find semantic boundaries in the latent space. Check for metrics to measure the disentanglement of faces.
-- [ ] arxiv 2020: [HiGAN - Semantic Hierarchy Emerges in Deep Generative Representations for Scene Synthesis](https://arxiv.org/abs/1911.09267)
+- [ ] CVPRW 2020: [HiGAN - Semantic Hierarchy Emerges in Deep Generative Representations for Scene Synthesis](https://arxiv.org/abs/1911.09267)
     - **Comments**: Investigates the causality between latent space vectors and generated image attributes/semantics. For normal GANs, they use off-the-shelf image classifiers (like cloud/no-cloud, lighting/no-lighting) to find semantic boundaries in the latent space. For StyleGAN-like architectures, where stochasticity/randomness is introduced at multiple layers, they find that by perturbing input latent vectors at different layer depths, different semantics are controlled: Layout -> Objects -> Attributes -> Color Schemes
 - [ ] ICCV 2019: [GANalyze: Toward Visual Definitions of Cognitive Image Properties](http://ganalyze.csail.mit.edu/)
     - **Comments**: Learn transformation in latent space (via a Transformer network) to improve memorability of generated images. Also check [MemNet](https://arxiv.org/abs/1708.02209)
