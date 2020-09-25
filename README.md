@@ -14,6 +14,7 @@
 
 ### GAN Architectures (StyleGAN, ProgressiveGAN types)
 - [X] CVPR 2020: [StyleGAN2 - Analyzing and Improving the Image Quality of StyleGAN](https://arxiv.org/abs/1912.04958)
+    - [ ] [Summary Blog](https://medium.com/analytics-vidhya/from-gan-basic-to-stylegan2-680add7abe82)
 - [X] CVPR 2019: [StyleGAN - A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)
 - [X] ICLR 2018: [Progressive GAN - Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/abs/1710.10196)
 
