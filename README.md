@@ -83,6 +83,7 @@
 
 
 ### Other Applications
+- [ ] CVPR 2020: [Learning to Simulate Dynamic Environments with GameGAN](https://nv-tlabs.github.io/gameGAN/)
 - [ ] CVPR 2020: [Controllable Person Image Synthesis with Attribute-Decomposed GAN](https://arxiv.org/abs/2003.12267)
 - [ ] WACV 2020: [TailorGAN: Making User-Defined Fashion Designs](https://arxiv.org/abs/2001.06427v2)
 - [ ] SIGGRAPH 2020: [Unpaired Motion Style Transfer from Video to Animation](https://deepmotionediting.github.io/style_transfer)
