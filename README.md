@@ -37,8 +37,8 @@
     - **Comments**: Introduce extended latent codes to embed real images that are different from the dataset on which GAN has been trained. Each layer of Generator receives different latent codes from this extend latent space. *Problem*: Overfitting to given image; doesn't very well support the manipulation. Resulting code might be outside the original latent domain (due to unconstrained optimization)
 
 #### Adding encoder to GAN generator (Reconstructions are not good)
-- [ ] ECCV 2020: [In-Domain GAN Inversion for Real Image Editing](https://arxiv.org/abs/2004.00049)
-    - **Comments** Resolves out-of-domain image inversion (from Image2StyleGAN) by doing an Encoder-constrained Optimization. They compute loss on both reconstructed image and the predicted latent code. Hence, we can use these latent codes for image editing. Check application: Semantic Diffusion
+- [X] ECCV 2020: [In-Domain GAN Inversion for Real Image Editing](https://arxiv.org/abs/2004.00049)
+    - **Comments** Novel Encoder training for GAN Inversion - Introduce adversarial loss for training encoder; Encoder trained using real images. Resolves out-of-domain image inversion (from Image2StyleGAN) by doing an Encoder-constrained Optimization (i.e. minimize distance between encoder predicted latent code and optimized latent code). They compute loss on both reconstructed image and the predicted latent code. Hence, we can use these latent codes for image editing. Check application: Semantic Diffusion
 - [ ] CVPR 2020: [Adversarial Latent Autoencoders](https://arxiv.org/abs/2004.04467)
 - [ ] NeurIPS 2019: [BigBiGAN - Large Scale Adversarial Representation Learning](https://arxiv.org/abs/1907.02544)
 
