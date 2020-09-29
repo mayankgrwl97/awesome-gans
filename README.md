@@ -4,6 +4,7 @@
 - [ ] [AI for Content Creation Workshop](http://visual.cs.brown.edu/workshops/aicc2020/)
 
 ### Tutorials and Blogs
+- [ ] [Discovering Interpretable GAN controls ](https://www.youtube.com/watch?v=oIzwe_MOeQI) `00:35:02`
 - [X] [StyleGAN v2: notes on training and latent space exploration (Fashion Dataset)](https://towardsdatascience.com/stylegan-v2-notes-on-training-and-latent-space-exploration-e51cf96584b3)
     - [ ] [Improving Initialization for GAN inversion](https://github.com/rolux/stylegan2encoder/issues/2)
     - [ ] [Making Anime Faces With StyleGAN[1/2] - Tips and tricks for effective StyleGAN use](https://www.gwern.net/Faces)
@@ -22,7 +23,7 @@
 
 
 ### GAN Inversion: Inverting Real Faces to Latent Code (Image2StyleGAN types)
-- [ ] ECCV 2020: [Transforming and Projecting Images into Class-conditional Generative Networks](https://minyoungg.github.io/pix2latent/)
+- [ ] ECCV 2020: [Pix2latent - Transforming and Projecting Images into Class-conditional Generative Networks](https://minyoungg.github.io/pix2latent/)
 - [ ] arxiv 2020: [Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/abs/2007.10379)
 - [ ] SIGGRAPH 2020: [MichiGAN: Multi-Input-Conditioned Hair Image Generation for Portrait Editing](https://mlchai.com/publication/tan2020michigan/)
 - [ ] SIGGRAPH ASIA 2020: [StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows](https://arxiv.org/abs/2008.02401)
@@ -59,7 +60,7 @@
     - **Comments**: It's a framework to interpret and label the internal units inside the Generator. Labels are associated by checking correlation of feature activations of individual units with the segmentation mask of the generated image
 
 #### Unsupervised Attribute Discovery in GANs
-- [ ] arxiv 2020: [GANSpace: Discovering Interpretable GAN Controls](https://arxiv.org/abs/2004.02546)
+- [ ] NeurIPS 2020: [GANSpace: Discovering Interpretable GAN Controls](https://arxiv.org/abs/2004.02546) [[Video](https://www.youtube.com/watch?v=oIzwe_MOeQI)]
     - **Comments** Discover Interpretable latent space directions by performing PCA analysis on the latent activations
 - [ ] ICML 2020: [Unsupervised Discovery of Interpretable Directions in the GAN Latent Space](https://arxiv.org/abs/2002.03754)
     - **Comments**: They learn a set of directions in the latet space that induce "orthogonal" image transformations that are easy to distinguish from each other. E.g. -background blur+, -background removal+, -hair+, etc.
@@ -73,9 +74,9 @@
 
 
 ### Image to Image (Pix2Pix and CycleGAN types)
+- [ ] NeurIPS 2020: [Swapping Autoencoder for Deep Image Manipulation](https://arxiv.org/abs/2007.00653)
 - [ ] ECCV 2020: [Contrastive Learning for Unpaired Image-to-Image Translation](https://arxiv.org/abs/2007.15651)
 - [ ] ECCV 2020: [Learning to Factorize and Relight a City](https://arxiv.org/abs/2008.02796)
-- [ ] arxiv 2020: [Swapping Autoencoder for Deep Image Manipulation](https://arxiv.org/abs/2007.00653)
 - [ ] CVPR 2020: [StarGAN v2 - Diverse Image Synthesis for Multiple Domains](https://arxiv.org/abs/1912.01865)
 - [X] ICLR 2020: [Mask Based Unsupervised Content Transfer](https://arxiv.org/abs/1906.06558)
     - **Comments**: They tackle the problem of translating domain specific content (such as glasses/no-glasses, moustache/no-moustache) between two domains. Their proposed method disentangles the common and separate parts of these domains, and, through the generation of a mask, focuses the attention of the underlying network to the desired augmentation alone, without wastefully reconstructing the entire target.
@@ -91,6 +92,7 @@
 - [ ] SURVEY, Aug'20: [Generative Adversarial Networks for Image and Video Synthesis: Algorithms and Applications](https://arxiv.org/abs/2008.02793)
 
 ### Improving GANs
+- [ ] NeurIPS 2020: [Differentiable Augmentation for Data-Efficient GAN Training](https://arxiv.org/abs/2007.00653)
 - [ ] NeurIPS 2020: [Top-k Training of GANs: Improving GAN Performance by Throwing Away Bad Samples](https://arxiv.org/abs/2002.06224)
 
 ### Other Applications
