@@ -91,6 +91,7 @@
 
 
 ### Other Applications
+- [ ] CVPR 2020: [PSGAN: Pose and Expression Robust Spatial-Aware GAN for Customizable Makeup Transfer](https://arxiv.org/abs/1909.06956)
 - [ ] CVPR 2020: [Learning to Simulate Dynamic Environments with GameGAN](https://nv-tlabs.github.io/gameGAN/)
 - [ ] CVPR 2020: [Controllable Person Image Synthesis with Attribute-Decomposed GAN](https://arxiv.org/abs/2003.12267)
 - [ ] WACV 2020: [TailorGAN: Making User-Defined Fashion Designs](https://arxiv.org/abs/2001.06427v2)
