@@ -15,7 +15,8 @@
 
 ### GAN Architectures (StyleGAN, ProgressiveGAN types)
 - [X] CVPR 2020: [StyleGAN2 - Analyzing and Improving the Image Quality of StyleGAN](https://arxiv.org/abs/1912.04958)
-    - [ ] [Summary Blog](https://medium.com/analytics-vidhya/from-gan-basic-to-stylegan2-680add7abe82)
+    - [X] [From GAN basic to StyleGAN2](https://medium.com/analytics-vidhya/from-gan-basic-to-stylegan2-680add7abe82) [Explains - Perceptual Path Length]
+    - [ ] Pytorch Code Repositories - [rosinality/stylegan2-pytorch](https://github.com/rosinality/stylegan2-pytorch/), [lucidrains/stylegan2-pytorch](https://github.com/lucidrains/stylegan2-pytorch)
 - [X] CVPR 2019: [StyleGAN - A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)
 - [X] ICLR 2018: [Progressive GAN - Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/abs/1710.10196)
 
@@ -89,6 +90,8 @@
     - [X] [Apple Blog](https://machinelearning.apple.com/research/gan)
 - [ ] SURVEY, Aug'20: [Generative Adversarial Networks for Image and Video Synthesis: Algorithms and Applications](https://arxiv.org/abs/2008.02793)
 
+### Improving GANs
+- [ ] NeurIPS 2020: [Top-k Training of GANs: Improving GAN Performance by Throwing Away Bad Samples](https://arxiv.org/abs/2002.06224)
 
 ### Other Applications
 - [ ] CVPR 2020: [PSGAN: Pose and Expression Robust Spatial-Aware GAN for Customizable Makeup Transfer](https://arxiv.org/abs/1909.06956)
