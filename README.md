@@ -1,5 +1,11 @@
 ## GAN Readings
 
+### Courses
+- [ ] [Deeplearning.ai Generative Adversarial Networks Specialization](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
+    - [ ] Build Basic Generative Adversarial Networks (GANs)
+    - [ ] Build Better Generative Adversarial Networks (GANs)
+    - [ ] Apply Generative Adversarial Networks (GANs)
+
 ### Relevant Workshops
 - [ ] [AI for Content Creation Workshop](http://visual.cs.brown.edu/workshops/aicc2020/)
 
@@ -96,6 +102,7 @@
 - [ ] NeurIPS 2020: [Top-k Training of GANs: Improving GAN Performance by Throwing Away Bad Samples](https://arxiv.org/abs/2002.06224)
 
 ### Other Applications
+- [ ] IJCV 2020: [Compositional GAN: Learning Image-Conditional Binary Composition](https://arxiv.org/abs/1807.07560)
 - [ ] CVPR 2020: [PSGAN: Pose and Expression Robust Spatial-Aware GAN for Customizable Makeup Transfer](https://arxiv.org/abs/1909.06956)
 - [ ] CVPR 2020: [Learning to Simulate Dynamic Environments with GameGAN](https://nv-tlabs.github.io/gameGAN/)
 - [ ] CVPR 2020: [Controllable Person Image Synthesis with Attribute-Decomposed GAN](https://arxiv.org/abs/2003.12267)
