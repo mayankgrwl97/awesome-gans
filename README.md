@@ -2,7 +2,7 @@
 
 ### Courses
 - [ ] [Deeplearning.ai Generative Adversarial Networks Specialization](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
-    - [ ] Build Basic Generative Adversarial Networks (GANs)
+    - [X] Build Basic Generative Adversarial Networks (GANs)
     - [ ] Build Better Generative Adversarial Networks (GANs)
     - [ ] Apply Generative Adversarial Networks (GANs)
 
