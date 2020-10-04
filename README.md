@@ -32,8 +32,6 @@
 - [ ] ECCV 2020: [Pix2latent - Transforming and Projecting Images into Class-conditional Generative Networks](https://minyoungg.github.io/pix2latent/)
 - [ ] arxiv 2020: [Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/abs/2007.10379)
 - [ ] SIGGRAPH 2020: [MichiGAN: Multi-Input-Conditioned Hair Image Generation for Portrait Editing](https://mlchai.com/publication/tan2020michigan/)
-- [ ] SIGGRAPH ASIA 2020: [StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows](https://arxiv.org/abs/2008.02401)
-    - [ ] What are Normalizing Flows? [[Video]](https://youtu.be/i7LjDvsLWCg)
 - [X] ECCV 2020: [StyleGAN2 Distillation for Feed-forward Image Manipulation](https://arxiv.org/abs/2003.03581)
     -**Comments**: Create synthetic datasets using style mixing and linear interpolation. Train paired pix2pixhd on these synthetic datasets for tasks such as male->female, female->male, etc.
 - [ ] ECCV 2020: [Rewriting a Deep Generative Model](https://rewriting.csail.mit.edu/)
@@ -45,6 +43,12 @@
 - [ ] SIGGRAPH 2019: [Semantic Photo Manipulation with a Generative Image Prior](https://ganpaint.io/)
 - [X] ICCV 2019: [Image2StyleGAN - How to Embed Images Into the StyleGAN Latent Space?](https://arxiv.org/abs/1904.03189)
     - **Comments**: Introduce extended latent codes to embed real images that are different from the dataset on which GAN has been trained. Each layer of Generator receives different latent codes from this extend latent space. *Problem*: Overfitting to given image; doesn't very well support the manipulation. Resulting code might be outside the original latent domain (due to unconstrained optimization)
+
+
+#### Flow based networks (Invertible by design)
+- [ ] SIGGRAPH ASIA 2020: [StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows](https://arxiv.org/abs/2008.02401)
+    - [ ] What are Normalizing Flows? [[Video]](https://youtu.be/i7LjDvsLWCg)
+- [ ] NeurIPS 2018: [Glow: Generative Flow with Invertible 1x1 Convolutions](https://arxiv.org/abs/1807.03039)
 
 #### Adding encoder to GAN generator (Reconstructions are not good)
 - [X] ECCV 2020: [In-Domain GAN Inversion for Real Image Editing](https://arxiv.org/abs/2004.00049)
