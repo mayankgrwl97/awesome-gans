@@ -33,7 +33,7 @@
 - [ ] arxiv 2020: [Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/abs/2007.10379)
 - [ ] SIGGRAPH 2020: [MichiGAN: Multi-Input-Conditioned Hair Image Generation for Portrait Editing](https://mlchai.com/publication/tan2020michigan/)
 - [X] ECCV 2020: [StyleGAN2 Distillation for Feed-forward Image Manipulation](https://arxiv.org/abs/2003.03581)
-    -**Comments**: Create synthetic datasets using style mixing and linear interpolation. Train paired pix2pixhd on these synthetic datasets for tasks such as male->female, female->male, etc.
+    - **Comments**: Create synthetic datasets using style mixing and linear interpolation. Train paired pix2pixhd on these synthetic datasets for tasks such as male->female, female->male, etc.
 - [ ] ECCV 2020: [Rewriting a Deep Generative Model](https://rewriting.csail.mit.edu/)
 - [ ] ECCV 2020: [Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation](https://arxiv.org/abs/2003.13659)
 - [ ] ECCV 2020: [DeepLandscape: Adversarial Modeling of Landscape Videos](https://saic-mdal.github.io/deep-landscape/)
@@ -92,6 +92,7 @@
     - **Comments**: They tackle the problem of translating domain specific content (such as glasses/no-glasses, moustache/no-moustache) between two domains. Their proposed method disentangles the common and separate parts of these domains, and, through the generation of a mask, focuses the attention of the underlying network to the desired augmentation alone, without wastefully reconstructing the entire target.
 - [ ] CVPR 2019: [GauGAN/SPADE - Semantic Image Synthesis with Spatially-Adaptive Normalization](https://nvlabs.github.io/SPADE/) 
     - **Comments**: Parallel work to pix2pixhd (superior results) - CHECK
+- [ ] ICCV 2019: [Everybody dance now](https://arxiv.org/abs/1808.07371) [[Code](https://github.com/carolineec/EverybodyDanceNow)]
 - [ ] ICCV 2019: [SinGAN - Learning a Generative Model from a Single Natural Image](https://arxiv.org/abs/1905.01164)
 - [ ] CVPR 2018: [StarGAN - Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](https://arxiv.org/abs/1711.09020)
 - [X] CVPR 2018: [Pix2PixHD - High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs](https://arxiv.org/abs/1711.11585)
