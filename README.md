@@ -1,4 +1,5 @@
-## GAN Readings
+## Awesome GANs [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/mayankgrwl97/awesome-gans)
+
 
 ### Courses
 - [ ] [Deeplearning.ai Generative Adversarial Networks Specialization](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
