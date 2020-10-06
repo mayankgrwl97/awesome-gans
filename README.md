@@ -1,4 +1,4 @@
-## Awesome GANs [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/mayankgrwl97/awesome-gans)
+## [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/mayankgrwl97/awesome-gans) GANs
 
 
 ### Courses
@@ -30,6 +30,7 @@
 
 
 ### GAN Inversion: Inverting Real Faces to Latent Code (Image2StyleGAN types)
+- [ ] ACCV 2020: [MagGAN: High-Resolution Face Attribute Editing with Mask-Guided Generative Adversarial Network](https://arxiv.org/abs/2010.01424)
 - [ ] ECCV 2020: [Pix2latent - Transforming and Projecting Images into Class-conditional Generative Networks](https://minyoungg.github.io/pix2latent/)
 - [ ] arxiv 2020: [Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/abs/2007.10379)
 - [ ] SIGGRAPH 2020: [MichiGAN: Multi-Input-Conditioned Hair Image Generation for Portrait Editing](https://mlchai.com/publication/tan2020michigan/)
