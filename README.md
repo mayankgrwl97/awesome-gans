@@ -22,7 +22,7 @@
 
 
 ### GAN Architectures (StyleGAN, ProgressiveGAN types)
-- [ ] arxiv (ICLR 2021 submission): [StyleGAN2 ADA - Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676) [[Code](https://github.com/NVlabs/stylegan2-ada)]
+- [ ] NeurIPS 2020: [StyleGAN2 ADA - Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676) [[Code](https://github.com/NVlabs/stylegan2-ada)]
 - [X] CVPR 2020: [StyleGAN2 - Analyzing and Improving the Image Quality of StyleGAN](https://arxiv.org/abs/1912.04958)
     - [X] [From GAN basic to StyleGAN2](https://medium.com/analytics-vidhya/from-gan-basic-to-stylegan2-680add7abe82) [Explains - Perceptual Path Length]
     - [ ] Pytorch Code Repositories - [rosinality/stylegan2-pytorch](https://github.com/rosinality/stylegan2-pytorch/), [lucidrains/stylegan2-pytorch](https://github.com/lucidrains/stylegan2-pytorch)
