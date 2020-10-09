@@ -7,8 +7,10 @@
     - [X] Build Better Generative Adversarial Networks (GANs)
     - [ ] Apply Generative Adversarial Networks (GANs)
 
-### Relevant Workshops
-- [ ] [AI for Content Creation Workshop](http://visual.cs.brown.edu/workshops/aicc2020/)
+### Conference Workshops
+- [ ] NeurIPS 2020: [Machine Learning for Creativity and Design](https://neurips2020creativity.github.io/)
+- [ ] ECCV 2020: [Perception Through Structured Generative Models](http://generativeperception.com/)
+- [ ] CVPR 2020: [AI for Content Creation Workshop](http://visual.cs.brown.edu/workshops/aicc2020/)
 
 ### Tutorials and Blogs
 - [ ] [Discovering Interpretable GAN controls ](https://www.youtube.com/watch?v=oIzwe_MOeQI) `00:35:02`
