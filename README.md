@@ -20,9 +20,12 @@
 - [ ] [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/)
 - [X] [Apple Machine Learning Blog](https://machinelearning.apple.com/research/gan)
 
+### Training GANs with Limited Data
+- [ ] NeurIPS 2020: [StyleGAN2 Adaptive Discriminator Augmentation - Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676) [[Code](https://github.com/NVlabs/stylegan2-ada)] [[PDF](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada/ada-paper.pdf)]
+- [ ] NeurIPS 2020: [Differentiable Augmentation for Data-Efficient GAN Training](https://arxiv.org/abs/2007.00653)
 
 ### GAN Architectures (StyleGAN, ProgressiveGAN types)
-- [ ] NeurIPS 2020: [StyleGAN2 ADA - Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676) [[Code](https://github.com/NVlabs/stylegan2-ada)]
+
 - [X] CVPR 2020: [StyleGAN2 - Analyzing and Improving the Image Quality of StyleGAN](https://arxiv.org/abs/1912.04958)
     - [X] [From GAN basic to StyleGAN2](https://medium.com/analytics-vidhya/from-gan-basic-to-stylegan2-680add7abe82) [Explains - Perceptual Path Length]
     - [ ] Pytorch Code Repositories - [rosinality/stylegan2-pytorch](https://github.com/rosinality/stylegan2-pytorch/), [lucidrains/stylegan2-pytorch](https://github.com/lucidrains/stylegan2-pytorch)
@@ -106,7 +109,6 @@
 - [ ] SURVEY, Aug'20: [Generative Adversarial Networks for Image and Video Synthesis: Algorithms and Applications](https://arxiv.org/abs/2008.02793)
 
 ### Improving GANs
-- [ ] NeurIPS 2020: [Differentiable Augmentation for Data-Efficient GAN Training](https://arxiv.org/abs/2007.00653)
 - [ ] NeurIPS 2020: [Top-k Training of GANs: Improving GAN Performance by Throwing Away Bad Samples](https://arxiv.org/abs/2002.06224)
 
 ### Other Applications
