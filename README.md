@@ -28,6 +28,7 @@
 
 ### GAN Architectures (StyleGAN, ProgressiveGAN types)
 
+- [X] CVPR 2020: [A U-Net Based Discriminator for Generative Adversarial Networks](https://arxiv.org/abs/2002.12655) [[PyTorch Code]](https://github.com/boschresearch/unetgan) [[Video]](https://www.youtube.com/watch?v=BR9C4p3W9vw&feature=emb_title)
 - [X] CVPR 2020: [StyleGAN2 - Analyzing and Improving the Image Quality of StyleGAN](https://arxiv.org/abs/1912.04958)
     - [X] [From GAN basic to StyleGAN2](https://medium.com/analytics-vidhya/from-gan-basic-to-stylegan2-680add7abe82) [Explains - Perceptual Path Length]
     - [ ] Pytorch Code Repositories - [rosinality/stylegan2-pytorch](https://github.com/rosinality/stylegan2-pytorch/), [lucidrains/stylegan2-pytorch](https://github.com/lucidrains/stylegan2-pytorch)
