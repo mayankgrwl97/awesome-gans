@@ -23,7 +23,7 @@
 - [X] [Apple Machine Learning Blog](https://machinelearning.apple.com/research/gan)
 
 ### Training GANs with Limited Data
-- [ ] NeurIPS 2020: [StyleGAN2 Adaptive Discriminator Augmentation - Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676) [[Code](https://github.com/NVlabs/stylegan2-ada)] [[PDF](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada/ada-paper.pdf)]
+- [ ] NeurIPS 2020: [StyleGAN2 Adaptive Discriminator Augmentation - Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676) [[Tensorflow Code](https://github.com/NVlabs/stylegan2-ada)] [[PDF](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada/ada-paper.pdf)] [[Unofficial Video](https://youtu.be/EnUDHQ98C9A)]
 - [ ] NeurIPS 2020: [Differentiable Augmentation for Data-Efficient GAN Training](https://arxiv.org/abs/2007.00653)
 
 ### GAN Architectures (StyleGAN, ProgressiveGAN types)
