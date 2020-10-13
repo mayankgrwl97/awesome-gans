@@ -6,6 +6,9 @@
     - [X] Build Basic Generative Adversarial Networks (GANs)
     - [X] Build Better Generative Adversarial Networks (GANs)
     - [ ] Apply Generative Adversarial Networks (GANs)
+- [ ] [Deep Unsupervised Learning - Spring 2020 (UC Berkeley)](https://sites.google.com/view/berkeley-cs294-158-sp20/home)
+    - [ ] [YouTube Lectures](https://www.youtube.com/watch?v=V9Roouqfu-M&list=PLwRJQ4m4UJjPiJP3691u-qWwPGVKzSlNP)
+    - [ ] [Assignments](https://github.com/rll/deepul)
 
 ### Conference Workshops
 - [ ] NeurIPS 2020: [Machine Learning for Creativity and Design](https://neurips2020creativity.github.io/)
