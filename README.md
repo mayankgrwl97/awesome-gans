@@ -9,6 +9,9 @@
 - [ ] [Deep Unsupervised Learning - Spring 2020 (UC Berkeley)](https://sites.google.com/view/berkeley-cs294-158-sp20/home)
     - [ ] [YouTube Lectures](https://www.youtube.com/watch?v=V9Roouqfu-M&list=PLwRJQ4m4UJjPiJP3691u-qWwPGVKzSlNP)
     - [ ] [Assignments](https://github.com/rll/deepul)
+- [ ] [Deep Generative Models - Fall 2019 (Stanford)](https://deepgenerativemodels.github.io/)
+    - [ ] [Course Notes/Blog](https://deepgenerativemodels.github.io/notes/index.html)
+    - [ ] [Probability Review](https://ermongroup.github.io/cs228-notes/preliminaries/probabilityreview/)
 
 ### Conference Workshops
 - [ ] NeurIPS 2020: [Machine Learning for Creativity and Design](https://neurips2020creativity.github.io/)
