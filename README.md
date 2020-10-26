@@ -91,6 +91,7 @@
     - **Comments**: They learn a set of directions in the latet space that induce "orthogonal" image transformations that are easy to distinguish from each other. E.g. -background blur+, -background removal+, -hair+, etc.
 
 ### Disentanglement of Variation Factors in Generative Models
+- [ ] NeurIPS 2020: [Self-learning Transformations for Improving Gaze and Head Redirection](https://ait.ethz.ch/projects/2020/STED-gaze/)
 - [ ] arxiv 2020: [Closed-Form Factorization of Latent Semantics in GANs](https://arxiv.org/abs/2007.06600)
 - [ ] ECCV 2020: [The Hessian Penalty - A Weak Prior for Unsupervised Disentanglement](https://arxiv.org/abs/2008.10599)
 - [ ] CVPR 2020: [DiscoFaceGAN - Disentangled and Controllable Face Image Generation via 3D Imitative-Contrastive Learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Deng_Disentangled_and_Controllable_Face_Image_Generation_via_3D_Imitative-Contrastive_Learning_CVPR_2020_paper.pdf)
