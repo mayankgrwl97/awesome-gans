@@ -30,6 +30,7 @@
 
 ### Training GANs with Limited Data
 - [X] NeurIPS 2020: [StyleGAN2 Adaptive Discriminator Augmentation - Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676) [[Tensorflow Code](https://github.com/NVlabs/stylegan2-ada)] [[PDF](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada/ada-paper.pdf)] [[Unofficial Video](https://youtu.be/EnUDHQ98C9A)]
+    - [X] [Blog](https://medium.com/swlh/training-gans-with-limited-data-22a7c8ffce78)
 - [ ] NeurIPS 2020: [Differentiable Augmentation for Data-Efficient GAN Training](https://arxiv.org/abs/2007.00653)
 
 ### GAN Architectures (StyleGAN, ProgressiveGAN types)
