@@ -123,6 +123,7 @@
 - [ ] NeurIPS 2020: [Top-k Training of GANs: Improving GAN Performance by Throwing Away Bad Samples](https://arxiv.org/abs/2002.06224)
 
 ### Other Applications
+- [ ] arxiv 2020: [House-GAN: Relational Generative Adversarial Networks for Graph-constrained House Layout Generation](https://ennauata.github.io/housegan/page.html)
 - [ ] IJCV 2020: [Compositional GAN: Learning Image-Conditional Binary Composition](https://arxiv.org/abs/1807.07560)
 - [ ] CVPR 2020: [PSGAN: Pose and Expression Robust Spatial-Aware GAN for Customizable Makeup Transfer](https://arxiv.org/abs/1909.06956)
 - [ ] CVPR 2020: [Learning to Simulate Dynamic Environments with GameGAN](https://nv-tlabs.github.io/gameGAN/)
