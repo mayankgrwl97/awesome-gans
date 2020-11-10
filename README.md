@@ -34,7 +34,7 @@
 - [ ] NeurIPS 2020: [Differentiable Augmentation for Data-Efficient GAN Training](https://arxiv.org/abs/2007.00653)
 
 ### GAN Architectures (StyleGAN, ProgressiveGAN types)
-
+- [ ] NeurIPS 2020: [SariGAN - Semantic-aware-relative-importance GAN - Learning Semantic-aware Normalization for Generative Adversarial Networks](https://proceedings.neurips.cc/paper/2020/file/f885a14eaf260d7d9f93c750e1174228-Paper.pdf)
 - [X] CVPR 2020: [A U-Net Based Discriminator for Generative Adversarial Networks](https://arxiv.org/abs/2002.12655) [[PyTorch Code](https://github.com/boschresearch/unetgan)] [[Video](https://www.youtube.com/watch?v=BR9C4p3W9vw&feature=emb_title)]
 - [X] CVPR 2020: [StyleGAN2 - Analyzing and Improving the Image Quality of StyleGAN](https://arxiv.org/abs/1912.04958)
     - [X] [From GAN basic to StyleGAN2](https://medium.com/analytics-vidhya/from-gan-basic-to-stylegan2-680add7abe82) [Explains - Perceptual Path Length]
