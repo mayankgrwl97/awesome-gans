@@ -45,6 +45,7 @@
 ### GAN Editing
 - [ ] CVPR 2020: [Editing in Style: Uncovering the Local Semantics of GANs](https://openaccess.thecvf.com/content_CVPR_2020/papers/Collins_Editing_in_Style_Uncovering_the_Local_Semantics_of_GANs_CVPR_2020_paper.pdf) [[Video](https://www.youtube.com/watch?v=l2RATZjpzwI)]
 - [ ] CVPR 2020: [Disentangled Image Generation Through Structured Noise Injection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Alharbi_Disentangled_Image_Generation_Through_Structured_Noise_Injection_CVPR_2020_paper.pdf) [[Video](https://www.youtube.com/watch?v=vM8kpVr6UQY)] [[Tensorflow Code](https://github.com/yalharbi/StructuredNoiseInjection)]
+- [ ] CVPR 2020: [The GAN that Warped: Semantic Attribute Editing with Unpaired Data](https://garoe.github.io/papers/warp_gan_2020.pdf)
 
 ### GAN Inversion: Inverting Real Faces to Latent Code (Image2StyleGAN types)
 - [ ] ACCV 2020: [MagGAN: High-Resolution Face Attribute Editing with Mask-Guided Generative Adversarial Network](https://arxiv.org/abs/2010.01424)
